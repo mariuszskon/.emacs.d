@@ -8,10 +8,12 @@
 
 ## Getting started
 Simply run this from the command line:
+
 `git clone https://github.com/mariuszskon/.emacs.d.git ~/.emacs.d`
 
 Launch emacs, and then:
 `M-x load-file RET ~/.emacs.d/firstinstall.el`
+
 That is, hold alt and press x, type `load-file`, press enter and type `~/.emacs.d/firstinstall.el`
 
 ## Features
