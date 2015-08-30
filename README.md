@@ -24,5 +24,6 @@ That is, hold alt and press x, type `load-file`, press enter and type `~/.emacs.
 * `C-=` keybinding for [expand-region](https://github.com/magnars/expand-region.el)
 * Some "default" keybindings for [multiple-cursors](https://github.com/magnars/multiple-cursors.el)
 * Enables `ido-mode` and its flex matching
+* Enables `show-paren-mode`
 * More!
 

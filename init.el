@@ -12,6 +12,7 @@
 ;; uses the classic C-= keybinding for expand-region
 ;; uses "default" keybindings for multiple-cursors
 ;; enables ido-mode and its flex matching
+;; enables show-paren-mode
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -26,6 +27,7 @@
  '(inhibit-startup-screen t)
  '(lisp-body-indent 4)
  '(sgml-basic-offset 4)
+ '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
