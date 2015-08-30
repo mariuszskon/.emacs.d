@@ -11,6 +11,7 @@
 ;; sets up web-mode, emmet-mode
 ;; uses the classic C-= keybinding for expand-region
 ;; uses "default" keybindings for multiple-cursors
+;; enables ido-mode and its flex matching
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
