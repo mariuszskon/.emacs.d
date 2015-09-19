@@ -11,6 +11,7 @@
 ;; sets up web-mode, emmet-mode
 ;; uses the classic C-= keybinding for expand-region
 ;; uses "default" keybindings for multiple-cursors
+;; sets up js2-mode and uses keybindings for its bounce-indent
 ;; enables ido-mode and its flex matching
 ;; enables show-paren-mode
 
@@ -63,6 +64,10 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
+;; js2-mode
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode)) ;; use js2-mode for js files
+(global-set-key (kbd "<C-tab>") 'js2-indent-bounce)
+(global-set-key (kbd "<backtab>") 'js2-indent-bounce-backward)
 
 ;; enabling disabled things
 (put 'downcase-region 'disabled nil)
