@@ -50,6 +50,7 @@
 ;; web-mode
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode)) ;; load html files with web-mode
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode)) ;; load php files with web-mode
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . web-mode)) ;; load scss (sass) files with web-mode
 
 ;; emmet
 (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
