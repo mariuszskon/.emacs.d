@@ -22,6 +22,8 @@
  ;; If there is more than one, they won't work right.
  '(backup-directory-alist (quote (("." . "backups"))))
  '(custom-enabled-themes (quote (wombat)))
+ '(electric-indent-mode t)
+ '(electric-pair-mode t)
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
