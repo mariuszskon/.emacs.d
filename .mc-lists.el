@@ -3,7 +3,9 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        dabbrev-expand
         downcase-region
+        kill-region
         ))
 
 (setq mc/cmds-to-run-once
