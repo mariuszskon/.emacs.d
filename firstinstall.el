@@ -1,5 +1,8 @@
 ;; install all of the packages!
 
+;; so that some emacs versions don't complain
+(package-initialize)
+
 ;; make sure we are fresh
 (package-refresh-contents)
 
